@@ -219,70 +219,70 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
 })
 }
 else if (text == 'assalamualaikum') {
-conn.sendMessage (id, '3aalaikumsalam, is there anything I can help you with? if confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, '3aalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik #help ya say..', MessageType.text);
 }
 else if (text == 'greeting') {
-conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type !help ya sis ...', MessageType.text);
 }
 else if (text == 'asalamualaikum') {
-conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type !help ya sis ...', MessageType.text);
 }
 else if (text == 'Assalamualaikum') {
-conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type !help ya sis ...', MessageType.text);
 }
 else if (text == 'p') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'P') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Hello') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Hi') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Woi') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Woy') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Hi') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Bro') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'sis') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Bro') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'min') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'Darling') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'I love u') {
 conn.sendMessage (id, 'love you too', MessageType.text);
 }
 else if (text == 'mas') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'mba') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'bre') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'cuy') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'euy') {
-conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type !help ya sis ..', MessageType.text);
 }
 else if (text == 'thanks') {
 conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
