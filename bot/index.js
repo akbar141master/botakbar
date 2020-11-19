@@ -218,95 +218,92 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'assalamualaikum') {
+conn.sendMessage (id, '3aalaikumsalam, is there anything I can help you with? if confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'salam'){
-conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'greeting') {
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
 }
-else if (text == 'asalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'asalamualaikum') {
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
 }
-else if (text == 'Assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Assalamualaikum') {
+conn.sendMessage (id, 'Waalaikumsalam, can I help you if you are confused, type! help ya sis ...', MessageType.text);
 }
-else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'p') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'P'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'P') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Halo'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Hello') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Hi') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Woi') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Woy'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Woy') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Hi'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Hi') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Gan'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Bro') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'sis'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'sis') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Bro'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Bro') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'min'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'min') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'Sayang'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'Darling') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'I love u'){
-conn.sendMessage(id, 'love you too' ,MessageType.text);
+else if (text == 'I love u') {
+conn.sendMessage (id, 'love you too', MessageType.text);
 }
-else if (text == 'mas'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'mas') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'mba'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'mba') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'bre'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'bre') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'cuy'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'cuy') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'euy'){
-conn.sendMessage(id, 'Ya?, ada yang bisa saya bantu? kalo bingung ketik !help ya kak..' ,MessageType.text);
+else if (text == 'euy') {
+conn.sendMessage (id, 'Yes ?, can I help you? if you're confused, type! help ya sis ..', MessageType.text);
 }
-else if (text == 'makasi'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'thanks') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'Makasi'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'Thanks') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'makasih'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'thanks') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'Makasih'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'Thanks') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'thank'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'thank') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'Thank'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'Thank') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
-else if (text == 'thanks'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
-}
-else if (text == 'Thanks'){
-conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+else if (text == 'thanks') {
+conn.sendMessage (id, 'You're welcome, have a nice day :)', MessageType.text);
 }
 else if (text == '!donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
