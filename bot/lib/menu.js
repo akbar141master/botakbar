@@ -1,127 +1,126 @@
-exports.menu = (id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) => {
-	return `🤖*MENU*🤖
+exports.menu = (id, BotName, corohelp, showDate, showTime, instagramlu, whatsapplu, when is active, grupch1, grupch2) => {
+return `🤖 * MENU * 🤖
 ──────────────
-Hi, *${id.split("@s.whatsapp.net")[0]}* 👋️
-Berikut adalah beberapa fitur yang ada pada bot ini!✨
+Hi, * $ {id.split ("@ s.whatsapp.net") [0]} * 👋️
+Here are some of the features of this bot! ✨
 ──────────────
-📆*${tampilTanggal}*
-⏱️*${tampilWaktu}*
+📆 * $ {showDate} *
+⏱️ * $ {ShowTime} *
 ──────────────
-♻ Command / Perintah :
+♻ Command / Command:
 ──────────────
-
-╭───「 *1.PEMBUAT STICKER* 」
-├≽️_${BotName} akan mengirimkan stickermu dengan caption #sticker!_
-├≽️Perintah: !sticker
-├≽️Contoh: kirim gambar dengan caption !sticker
+╭─── 「* 1. STICKER MAKER *」
+├≽️ _ $ {BotName} will send your sticker with the caption #sticker! _
+├≽️ Command: !Sticker
+├≽️Example: send a picture with a caption! Sticker
 ├──────────────
 ├──────────────
-├───≽️「 *2.NULIS OTOMATIS* 」
-├≽️_${BotName} akan mengirimkan tulisan di buku sesuai yang kamu kirim!_
-├≽️Perintah: !nulis [kata]
-├≽️Contoh: !nulis Piyo Gans
+├───≽️ 「* 2. AUTO NUMBER *」
+├≽️ _ $ {BotName} will send the text in the book as you send it! _
+├≽️ Command: !Write [word]
+├≽️ Example: write Piyo Gans
 ├──────────────
 ├──────────────
-├───≽️「 *3.FITUR PANTUN* 」
-├≽️_${BotName} akan mengirimkan pantun secara random!_
-├≽️Perintah: !pantun
-├≽️Contoh: !pantun
+├───≽️ 「* 3. CHAIN ​​FEATURES *」
+├≽️ _ $ {BotName} will send a random rhyme! _
+├≽️ Command: !Rhymes
+├≽️Example: !Rhymes
 ├──────────────
 ├──────────────
-├───≽️「 *4.DOWNLOADER YOUTUBE* 」
-├≽️_${BotName} akan mengirimkan video downloader dari yt sesuai perintah kamu!_
-├≽️Perintah: !yt [link]
-├≽️Contoh: !yt https://youtu.be/blablabla
+├───≽️ 「* 4.ER YOUTUBE *」
+├≽️ _ $ {BotName} will send the video downloader from yt according to your orders! _
+├≽️ Command: !Yt [link]
+├≽️Example: !Yt https://youtu.be/blablabla
 ├──────────────
 ├──────────────
-├───≽️「 *5.FITUR QUOTES* 」
-├≽️_${BotName} akan mengirimkan katabijak secara random!_
-├≽️Perintah: !quotes
-├≽️Contoh: !quotes
+├───≽️ 「* 5. FEATURES OF QUOTES *」
+├≽️ _ $ {BotName} will send a random word of wisdom! _
+├≽️ Command: !Quotes
+├≽️Example: !Quotes
 ├──────────────
 ├──────────────
-├───≽️「 *6.PENYEGAR TIMELINE* 」
-├≽️_${BotName} akan mengirimkan gambar cogan/cecan sesuai yang kamu kirim!_
-├≽️Perintah: !ptl [cewek/cowok]
-├≽️Contoh: !ptl cewek
+├───≽️ 「* 6.STEVING TIMELINE *」
+├≽️ _ $ {BotName} will send the cogan / cecan image according to what you sent! _
+├≽️ Command: !Ptl [girl / boy]
+├≽️Example: girl ptl
 ├──────────────
 ├──────────────
-├───≽️「 *7.FITUR ANIME* 」
-├≽️_${BotName} akan mengirimkan gambar anime secara random!_
-├≽️Perintah: !randomanime
-├≽️Contoh: !!randomanime
+├───≽️ 「* 7. ANIME FEATURES *」
+├≽️ _ $ {BotName} will send you anime pictures randomly! _
+├≽️ Command: !Randomanime
+├≽️Example: !!randomanime
 ├──────────────
 ├──────────────
-├───≽️「 *8.PENGUBAH SUARA GOOGLE* 」
-├≽️_${BotName} akan mengirimkan suara vn dari google sesuai perintah yang kamu kirim!_
-├≽️Perintah: !ttsid [kata]
-├≽️Contoh: !ttsid Aris ganteng
+├───≽️ 「* 8. GOOGLE VOICE CHANGER *」
+├≽️ _ $ {BotName} will send the vn voice from google according to the command you sent! _
+├≽️ Command: !Ttsid [word]
+├≽️Example: !Ttsid Aris is handsome
 ├──────────────
-├───≽️「 *9.FITUR QURAN* 」
-├≽️_${BotName} akan mengirimkan ayat-ayat quran secara random!_
-├≽️Perintah: !quran
-├≽️Contoh: !quran
+├───≽️ 「* 9. FEATURES OF THE QURAN *」
+├≽️ _ $ {BotName} will send random Quran verses! _
+├≽️ Command: !Quran
+├≽️Example: !Quran
 ├──────────────
-├───≽️「 *10.INFORMASI BOT*
-├≽️${BotName} akan mengirimkan informasi tentang bot!_
-├≽️Perintah: !info
-├≽️Contoh: !info
+├───≽️ 「* 10. BOT INFORMATION *
+├≽️ $ {BotName} will send information about the bot! _
+├≽️ Command: !Info
+├≽️Example: !Info
 ├──────────────
-├───≽️「 *11.FITUR SAY* 」
-├≽️_${BotName} akan mengirimkan kata kata sesuai yang kamu kirim!_
-├≽️Perintah: #say [kata]
-├≽️Contoh: #say halo Aris ganteng
+├───≽️ 「* 11. SAY FEATURES *」
+├≽️ _ $ {BotName} will send the words that you send! _
+├≽️ Command: #say [word]
+├≽️Example: #say hello Aris is handsome
 ├──────────────
-├───≽️「*12.YOUTUBE MP3 DOWNLOADER* 」
-├≽️_${BotName} akan mengirimkan lagu sesuai perintah yang kamu kirim!_
-├≽️Perintah: #ytmp3 [link]
-├≽️Contoh: #ytmp3 https://youtu.be/xxxx
+├───≽️ 「* 12.YOUTUBE MP3 DOWNLOADER *」
+├≽️ _ $ {BotName} will send the song according to the command you sent! _
+├≽️ Command: # ytmp3 [link]
+├≽️Example: # ytmp3 https://youtu.be/xxxx
 ├──────────────
-├───≽️「 *13.INSTAGRAM VIDEO/FOTO DOWNLOADER* 」
-├≽️_${BotName} akan mengirimkan video/foto ig sesuai perintah yang kamu kirim!_
-├≽️Perintah: !ig [link]
-├≽️Contoh: !ig https://instagram.com/xxxx
+├───≽️ 「* 13.INSTAGRAM VIDEO / PHOTO DOWNLOADER *」
+├≽️ _ $ {BotName} will send ig video / photo according to the order you sent! _
+├≽️ Command: !Ig [link]
+├≽️Example: !Ig https://instagram.com/xxxx
 ├──────────────
-├───≽️「 *14.FACEBOOK VIDEO/FOTO DOWNLOADER* 」
-├≽️_${BotName} akan mengirimkan video/foto fb sesuai perintah yang kamu kirim!_
-├≽️Perintah: !fb [link]
-├≽️Contoh: !fb https://facebook.com/xxxx
+├───≽️ 「* 14.FACEBOOK VIDEO / PHOTO DOWNLOADER *」
+├≽️ _ $ {BotName} will send the fb video / photo according to the order you sent! _
+├≽️ Command: !Fb [link]
+├≽️Example: !Fb https://facebook.com/xxxx
 ├──────────────
-├───≽️「 *15.TWITTER VIDEO/FOTO DOWNLOADER* 」
-├≽️_${BotName} akan mengirimkan video/foto twitter sesuai perintah yang kamu kirim!_
-├≽️Perintah: !twt [link]
-├≽️Contoh: !twt https://twitter.com/xxxx
+├───≽️ 「* 15.TWITTER VIDEO / PHOTO DOWNLOADER *」
+├≽️ _ $ {BotName} will send a twitter video / photo according to the command you sent! _
+├≽️ Command: !Twt [link]
+├≽️Example: !Twt https://twitter.com/xxxx
 ├──────────────
-├───≽️「 *16.WIKIPEDIA* 」
-├≽️_${BotName} akan mengirimkan hasil dari wikipedia sesuai perintah yang kamu kirim!_
-├≽️Perintah: !wiki [query]
-├≽️Contoh: !wiki anjing
+├───≽️ 「* 16.WIKIPEDIA *」
+├≽️ _ $ {BotName} will send the result from wikipedia according to the command you sent! _
+├≽️ Command: !Wiki [query]
+├≽️Example: !Dog wiki
 ├──────────────
-├≽️💰 JANGAN  LUPA DONASI AGAR BOT AKTIF TERUS!
-├≽️💰 MAU DONASI? SILAHKAN KETIK #donate
+├≽️💰 DON'T FORGET TO DONATE TO CONTINUE ACTIVE BOTS!
+├≽️💰 WANT TO DONATE? PLEASE TYPE # donate
 ├──────────────
-├───≽️「📺 *Iklan* 📺」
+├───≽️ 「📺 * Advertising * 📺」
 ├──────────────
 ├──────────────
-├≽️Follow akun instagram admin ${instagramlu}
+├≽️Follow the admin $ {instagramlu} instagram account
 ├──────────────
-├───≽️「INFORMASI COVID-19 TERBARU! 」
+├───≽️ 「LATEST COVID-19 INFORMATION! 」
 ├──────────────
-├≽️⚠️ POSITIF: *${corohelp.confirmed.value}*
-├≽️⚠️ SEMBUH: *${corohelp.recovered.value}*
-├≽️⚠️ MENINGGAL: *${corohelp.deaths.value}*
-├≽️⚠️ UPDATE: *${corohelp.lastUpdate}*
+├≽️⚠️ POSITIVE: * $ {corohelp.confirmed.value} *
+├≽️⚠️ HEAL: * $ {corohelp.recovered.value} *
+├≽️⚠️ DIED: * $ {corohelp.deaths.value} *
+├≽️⚠️ UPDATE: * $ {corohelp.lastUpdate} *
 ├──────────────
-├≽️♻️ _TETAP JAGA KESEHATAN DAN SELALU PAKAI MASKER!_
+├≽️♻️ _ KEEP YOUR HEALTH AND ALWAYS USE A MASK! _
 ├──────────────
-├≽️♻️ Mau pasang iklan di *${BotName} ?*
-├≽️☎️ WA : *${whatsapplu}*
+├≽️♻️ Want to advertise on * $ {BotName}? *
+├≽️☎️ WA: * $ {whatsapplu} *
 ├──────────────
-├≽️⚠️ Gunakan dengan bijak ‼️
-├≽️⚠️ Bot ini berjalan ${kapanbotaktif} ‼️
+├≽️⚠️ Use it wisely‼ ️
+├≽️⚠️ This bot runs $ {whenbotactive}‼ ️
 ├──────────────
-├≽️✳️ YouTube : https://www.youtube.com/channel/UC55eJ-mYFw0x_XQ5nFq0Ag
+├≽️✳️ YouTube: https://www.youtube.com/channel/UC55eJ-mYFw0x_XQ5nFq0Ag
 ├──────────────
 ╰─────────
-🔥[ *POWERED BY ${BotName}* ]🔥`
+🔥 [* POWERED BY $ {BotName} *] 🔥`
 }
